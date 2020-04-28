@@ -2,13 +2,14 @@
 .container{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+
 }
 .box{
   display: block;
-/*  width: 10%;
+width: 10%;
   min-width: 200px;
-  height: 100px;*/
+  height: 100px;
   margin: 20px;
   padding: 10px;
 }
